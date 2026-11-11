@@ -20,12 +20,5 @@
     "directional metering",
     "traffic governance",
     "internet economics"
-  ],
-  "related_identifiers": [
-    {
-      "relation": "is supplement to",
-      "identifier": "https://github.com/byweiai/pcdn-directional-accounting",
-      "resource_type": "software"
-    }
   ]
 }
