@@ -1,0 +1,1360 @@
+{
+  "params": {
+    "N_ENDPOINTS": 20000,
+    "SHARE_PROVIDER": 0.04,
+    "CAP_UP_MBPS": 30.0,
+    "CAP_DN_MBPS": 1000.0,
+    "SLA_UP_MBPS": 2.0,
+    "CONSUMER_UPLINK_CAP_GB": 648.0,
+    "HOUSE_UP_GB": 12.0,
+    "HOUSE_DN_GB": 220.0,
+    "E_UPLINK": 0.06,
+    "LAMBDA_CAP": 0.04,
+    "P_MARKET": 0.35,
+    "C_NODE_MARGIN": 0.02,
+    "P_PROVIDER": 0.12,
+    "DL_PRICE": 0.1,
+    "EVASION_ALPHA": 0.4,
+    "EVASION_EXTRA_DOWN": 1.4999999999999998,
+    "EVASION_COST": 0.15,
+    "DET_TPR": 0.84,
+    "QUOTA_FP": 0.0,
+    "RHO_TRIGGER": 0.5,
+    "UP_TRIGGER_X": 5.0,
+    "DN_TRIGGER_X": 5.0,
+    "WASH_DOWN": 1.0,
+    "WASH_COST": 0.1,
+    "HOUSE_RHO_MED": 0.0904,
+    "HOUSE_RHO_P95": 0.1392,
+    "HOUSE_N": 20000,
+    "EPS_GRID": [
+      0.5,
+      1.0
+    ],
+    "BASE_EPS": 1.0,
+    "BASE_SPOT": 0.22
+  },
+  "base": {
+    "p_spot": 0.22,
+    "p_provider": 0.12,
+    "evasion_cost": 0.15,
+    "quota_rule": "ratio",
+    "eps": 1.0,
+    "wash_branch": false,
+    "laundering_pays": true,
+    "tripped_share_of_base": 0.03695,
+    "tripped_share_of_providers": 0.92375,
+    "gross_downlink_under_quota": 0.0,
+    "registration_rate": 0.445,
+    "wash_choosers": 0.0,
+    "disclosed_volume_share": 0.7746650816203998,
+    "provider_profit": {
+      "S1": 92656.10800960375,
+      "S2": 349987.2581129356,
+      "S3": 251695.6231189806
+    },
+    "operator_margin": {
+      "S1": 0.0,
+      "S2": 0.0,
+      "S3": 16431.691386191345
+    },
+    "unpriced_harm": {
+      "S1": 14670.387580611316,
+      "S2": 194052.1476005398,
+      "S3": 21237.606952178616
+    },
+    "welfare": {
+      "S1": 81536.98419826903,
+      "S2": 341534.4140571343,
+      "S3": 423293.4390375891
+    },
+    "welfare_transfer": {
+      "S1": 77985.72042899243,
+      "S2": 155935.11051239577,
+      "S3": 246889.70755299335
+    },
+    "consumer_surplus": {
+      "S1": 3551.263769276593,
+      "S2": 185599.30354473856,
+      "S3": 176403.7314845958
+    },
+    "price": {
+      "S1": 0.6515859584518405,
+      "S2": 0.35,
+      "S3": 0.35878056695856764
+    },
+    "volume_served": {
+      "S1": 146703.87580611315,
+      "S2": 1060567.4488270776,
+      "S3": 1033960.6388313535
+    },
+    "harm_per_gb_served": {
+      "S1": 0.1,
+      "S2": 0.18297011455061113,
+      "S3": 0.02054005360995432
+    },
+    "collateral_billing": 0.0
+  },
+  "grid": [
+    {
+      "p_spot": 0.06,
+      "p_provider": 0.12,
+      "evasion_cost": 0.15,
+      "quota_rule": "ratio",
+      "eps": 1.0,
+      "wash_branch": false,
+      "laundering_pays": false,
+      "tripped_share_of_base": 0.03695,
+      "tripped_share_of_providers": 0.92375,
+      "gross_downlink_under_quota": 0.0,
+      "registration_rate": 0.445,
+      "wash_choosers": 0.0,
+      "disclosed_volume_share": 0.7746650816203998,
+      "provider_profit": {
+        "S1": 92656.10800960375,
+        "S2": 349987.2581129356,
+        "S3": 251695.6231189806
+      },
+      "operator_margin": {
+        "S1": 0.0,
+        "S2": -35198.161087132816,
+        "S3": 16431.691386191345
+      },
+      "unpriced_harm": {
+        "S1": 14670.387580611316,
+        "S2": 18061.34216487573,
+        "S3": 21237.606952178616
+      },
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 482327.0584056656,
+        "S3": 423293.4390375891
+      },
+      "welfare_transfer": {
+        "S1": 77985.72042899243,
+        "S2": 296727.75486092706,
+        "S3": 246889.70755299335
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "harm_per_gb_served": {
+        "S1": 0.1,
+        "S2": 0.017029885449388875,
+        "S3": 0.02054005360995432
+      },
+      "collateral_billing": 0.0
+    },
+    {
+      "p_spot": 0.08,
+      "p_provider": 0.12,
+      "evasion_cost": 0.15,
+      "quota_rule": "ratio",
+      "eps": 1.0,
+      "wash_branch": false,
+      "laundering_pays": false,
+      "tripped_share_of_base": 0.03695,
+      "tripped_share_of_providers": 0.92375,
+      "gross_downlink_under_quota": 0.0,
+      "registration_rate": 0.445,
+      "wash_choosers": 0.0,
+      "disclosed_volume_share": 0.7746650816203998,
+      "provider_profit": {
+        "S1": 92656.10800960375,
+        "S2": 349987.2581129356,
+        "S3": 251695.6231189806
+      },
+      "operator_margin": {
+        "S1": 0.0,
+        "S2": -17599.080543566404,
+        "S3": 16431.691386191345
+      },
+      "unpriced_harm": {
+        "S1": 14670.387580611316,
+        "S2": 18061.34216487573,
+        "S3": 21237.606952178616
+      },
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 499926.13894923206,
+        "S3": 423293.4390375891
+      },
+      "welfare_transfer": {
+        "S1": 77985.72042899243,
+        "S2": 314326.8354044935,
+        "S3": 246889.70755299335
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "harm_per_gb_served": {
+        "S1": 0.1,
+        "S2": 0.017029885449388875,
+        "S3": 0.02054005360995432
+      },
+      "collateral_billing": 0.0
+    },
+    {
+      "p_spot": 0.1,
+      "p_provider": 0.12,
+      "evasion_cost": 0.15,
+      "quota_rule": "ratio",
+      "eps": 1.0,
+      "wash_branch": false,
+      "laundering_pays": false,
+      "tripped_share_of_base": 0.03695,
+      "tripped_share_of_providers": 0.92375,
+      "gross_downlink_under_quota": 0.0,
+      "registration_rate": 0.445,
+      "wash_choosers": 0.0,
+      "disclosed_volume_share": 0.7746650816203998,
+      "provider_profit": {
+        "S1": 92656.10800960375,
+        "S2": 349987.2581129356,
+        "S3": 251695.6231189806
+      },
+      "operator_margin": {
+        "S1": 0.0,
+        "S2": 6.1059076349062625e-12,
+        "S3": 16431.691386191345
+      },
+      "unpriced_harm": {
+        "S1": 14670.387580611316,
+        "S2": 18061.34216487573,
+        "S3": 21237.606952178616
+      },
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 517525.21949279844,
+        "S3": 423293.4390375891
+      },
+      "welfare_transfer": {
+        "S1": 77985.72042899243,
+        "S2": 331925.9159480599,
+        "S3": 246889.70755299335
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "harm_per_gb_served": {
+        "S1": 0.1,
+        "S2": 0.017029885449388875,
+        "S3": 0.02054005360995432
+      },
+      "collateral_billing": 0.0
+    },
+    {
+      "p_spot": 0.12,
+      "p_provider": 0.12,
+      "evasion_cost": 0.15,
+      "quota_rule": "ratio",
+      "eps": 1.0,
+      "wash_branch": false,
+      "laundering_pays": false,
+      "tripped_share_of_base": 0.03695,
+      "tripped_share_of_providers": 0.92375,
+      "gross_downlink_under_quota": 0.0,
+      "registration_rate": 0.445,
+      "wash_choosers": 0.0,
+      "disclosed_volume_share": 0.7746650816203998,
+      "provider_profit": {
+        "S1": 92656.10800960375,
+        "S2": 349987.2581129356,
+        "S3": 251695.6231189806
+      },
+      "operator_margin": {
+        "S1": 0.0,
+        "S2": 17599.080543566404,
+        "S3": 16431.691386191345
+      },
+      "unpriced_harm": {
+        "S1": 14670.387580611316,
+        "S2": 18061.34216487573,
+        "S3": 21237.606952178616
+      },
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 535124.3000363648,
+        "S3": 423293.4390375891
+      },
+      "welfare_transfer": {
+        "S1": 77985.72042899243,
+        "S2": 349524.99649162625,
+        "S3": 246889.70755299335
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "harm_per_gb_served": {
+        "S1": 0.1,
+        "S2": 0.017029885449388875,
+        "S3": 0.02054005360995432
+      },
+      "collateral_billing": 0.0
+    },
+    {
+      "p_spot": 0.16,
+      "p_provider": 0.12,
+      "evasion_cost": 0.15,
+      "quota_rule": "ratio",
+      "eps": 1.0,
+      "wash_branch": false,
+      "laundering_pays": true,
+      "tripped_share_of_base": 0.03695,
+      "tripped_share_of_providers": 0.92375,
+      "gross_downlink_under_quota": 0.0,
+      "registration_rate": 0.445,
+      "wash_choosers": 0.0,
+      "disclosed_volume_share": 0.7746650816203998,
+      "provider_profit": {
+        "S1": 92656.10800960375,
+        "S2": 349987.2581129356,
+        "S3": 251695.6231189806
+      },
+      "operator_margin": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 16431.691386191345
+      },
+      "unpriced_harm": {
+        "S1": 14670.387580611316,
+        "S2": 194052.1476005398,
+        "S3": 21237.606952178616
+      },
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 341534.4140571343,
+        "S3": 423293.4390375891
+      },
+      "welfare_transfer": {
+        "S1": 77985.72042899243,
+        "S2": 155935.11051239577,
+        "S3": 246889.70755299335
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "harm_per_gb_served": {
+        "S1": 0.1,
+        "S2": 0.18297011455061113,
+        "S3": 0.02054005360995432
+      },
+      "collateral_billing": 0.0
+    },
+    {
+      "p_spot": 0.22,
+      "p_provider": 0.12,
+      "evasion_cost": 0.15,
+      "quota_rule": "ratio",
+      "eps": 1.0,
+      "wash_branch": false,
+      "laundering_pays": true,
+      "tripped_share_of_base": 0.03695,
+      "tripped_share_of_providers": 0.92375,
+      "gross_downlink_under_quota": 0.0,
+      "registration_rate": 0.445,
+      "wash_choosers": 0.0,
+      "disclosed_volume_share": 0.7746650816203998,
+      "provider_profit": {
+        "S1": 92656.10800960375,
+        "S2": 349987.2581129356,
+        "S3": 251695.6231189806
+      },
+      "operator_margin": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 16431.691386191345
+      },
+      "unpriced_harm": {
+        "S1": 14670.387580611316,
+        "S2": 194052.1476005398,
+        "S3": 21237.606952178616
+      },
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 341534.4140571343,
+        "S3": 423293.4390375891
+      },
+      "welfare_transfer": {
+        "S1": 77985.72042899243,
+        "S2": 155935.11051239577,
+        "S3": 246889.70755299335
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "harm_per_gb_served": {
+        "S1": 0.1,
+        "S2": 0.18297011455061113,
+        "S3": 0.02054005360995432
+      },
+      "collateral_billing": 0.0
+    },
+    {
+      "p_spot": 0.3,
+      "p_provider": 0.12,
+      "evasion_cost": 0.15,
+      "quota_rule": "ratio",
+      "eps": 1.0,
+      "wash_branch": false,
+      "laundering_pays": true,
+      "tripped_share_of_base": 0.03695,
+      "tripped_share_of_providers": 0.92375,
+      "gross_downlink_under_quota": 0.0,
+      "registration_rate": 0.445,
+      "wash_choosers": 0.0,
+      "disclosed_volume_share": 0.7746650816203998,
+      "provider_profit": {
+        "S1": 92656.10800960375,
+        "S2": 349987.2581129356,
+        "S3": 251695.6231189806
+      },
+      "operator_margin": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 16431.691386191345
+      },
+      "unpriced_harm": {
+        "S1": 14670.387580611316,
+        "S2": 194052.1476005398,
+        "S3": 21237.606952178616
+      },
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 341534.4140571343,
+        "S3": 423293.4390375891
+      },
+      "welfare_transfer": {
+        "S1": 77985.72042899243,
+        "S2": 155935.11051239577,
+        "S3": 246889.70755299335
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "harm_per_gb_served": {
+        "S1": 0.1,
+        "S2": 0.18297011455061113,
+        "S3": 0.02054005360995432
+      },
+      "collateral_billing": 0.0
+    }
+  ],
+  "provider_rate": [
+    {
+      "p_provider": 0.08,
+      "registration_rate": 0.525,
+      "operator_margin_S3": -17616.249159815314,
+      "welfare_S3": 427481.1784986966,
+      "welfare_S3_transfer": 244966.77104011324,
+      "disclosed_volume_share": 0.8305105525960562,
+      "tripped_share_of_base": 0.03695
+    },
+    {
+      "p_provider": 0.1,
+      "registration_rate": 0.485,
+      "operator_margin_S3": 5.914199447680199e-12,
+      "welfare_S3": 425666.0148509294,
+      "welfare_S3_transfer": 245831.729261301,
+      "disclosed_volume_share": 0.803650882047318,
+      "tripped_share_of_base": 0.03695
+    },
+    {
+      "p_provider": 0.12,
+      "registration_rate": 0.445,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S3": 423293.4390375891,
+      "welfare_S3_transfer": 246889.70755299335,
+      "disclosed_volume_share": 0.7746650816203998,
+      "tripped_share_of_base": 0.03695
+    },
+    {
+      "p_provider": 0.14,
+      "registration_rate": 0.41375,
+      "operator_margin_S3": 31796.034909087593,
+      "welfare_S3": 420772.0005610836,
+      "welfare_S3_transfer": 247927.37461776138,
+      "disclosed_volume_share": 0.7495052517464127,
+      "tripped_share_of_base": 0.03695
+    },
+    {
+      "p_provider": 0.16,
+      "registration_rate": 0.36125,
+      "operator_margin_S3": 44709.806109085795,
+      "welfare_S3": 415232.7069316574,
+      "welfare_S3_transfer": 249911.2211528496,
+      "disclosed_volume_share": 0.7026082461568426,
+      "tripped_share_of_base": 0.03695
+    },
+    {
+      "p_provider": 0.2,
+      "registration_rate": 0.25125,
+      "operator_margin_S3": 61774.218668191425,
+      "welfare_S3": 396838.70655961515,
+      "welfare_S3_transfer": 253953.62452108416,
+      "disclosed_volume_share": 0.5824638379813551,
+      "tripped_share_of_base": 0.03695
+    },
+    {
+      "p_provider": 0.25,
+      "registration_rate": 0.11375,
+      "operator_margin_S3": 59367.445991513574,
+      "welfare_S3": 351971.3232014724,
+      "welfare_S3_transfer": 251612.8015797897,
+      "disclosed_volume_share": 0.37318038915343743,
+      "tripped_share_of_base": 0.03695
+    }
+  ],
+  "evasion": [
+    {
+      "evasion_cost": 0.0,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S2": 341534.4140571343,
+      "welfare_S3": 423293.4390375891,
+      "registration_rate": 0.445
+    },
+    {
+      "evasion_cost": 0.02,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S2": 341534.4140571343,
+      "welfare_S3": 423293.4390375891,
+      "registration_rate": 0.445
+    },
+    {
+      "evasion_cost": 0.05,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S2": 341534.4140571343,
+      "welfare_S3": 423293.4390375891,
+      "registration_rate": 0.445
+    },
+    {
+      "evasion_cost": 0.1,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S2": 341534.4140571343,
+      "welfare_S3": 423293.4390375891,
+      "registration_rate": 0.445
+    },
+    {
+      "evasion_cost": 0.15,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S2": 341534.4140571343,
+      "welfare_S3": 423293.4390375891,
+      "registration_rate": 0.445
+    },
+    {
+      "evasion_cost": 0.25,
+      "laundering_pays": false,
+      "operator_margin_S2": 105594.48326139843,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S2": 623119.702754197,
+      "welfare_S3": 423293.4390375891,
+      "registration_rate": 0.445
+    },
+    {
+      "evasion_cost": 0.5,
+      "laundering_pays": false,
+      "operator_margin_S2": 105594.48326139843,
+      "operator_margin_S3": 16431.691386191345,
+      "welfare_S2": 623119.702754197,
+      "welfare_S3": 423293.4390375891,
+      "registration_rate": 0.445
+    }
+  ],
+  "coverage": {
+    "0.06": {
+      "disclosed": 0.8529228150970519,
+      "served": 1056694.2435756759,
+      "harm": 15211.206952178616
+    },
+    "0.08": {
+      "disclosed": 0.8305105525960562,
+      "served": 1051716.5275125518,
+      "harm": 17090.406952178615
+    },
+    "0.10": {
+      "disclosed": 0.803650882047318,
+      "served": 1043966.035242341,
+      "harm": 19164.006952178617
+    },
+    "0.12": {
+      "disclosed": 0.7746650816203998,
+      "served": 1033960.6388313535,
+      "harm": 21237.606952178616
+    },
+    "0.16": {
+      "disclosed": 0.7026082461568426,
+      "served": 1000955.504673216,
+      "harm": 25579.206952178618
+    },
+    "0.20": {
+      "disclosed": 0.5824638379813551,
+      "served": 930558.2562037003,
+      "harm": 31281.60695217862
+    },
+    "0.25": {
+      "disclosed": 0.37318038915343743,
+      "served": 779879.0427985433,
+      "harm": 38409.60695217862
+    }
+  },
+  "demand": [
+    {
+      "eps": null,
+      "welfare": {
+        "S1": 33741.89143540602,
+        "S2": 155935.11051239577,
+        "S3": 237810.94693121125
+      },
+      "consumer_surplus": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "price": {
+        "S1": 0.35,
+        "S2": 0.35,
+        "S3": 0.35
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "ratio": 7.047943574427829,
+      "transfer_ratio": 7.047943574427829,
+      "volume_ratio": 7.04794357442783,
+      "gain_share": 1.0,
+      "cs_gain_share": 0.0
+    },
+    {
+      "eps": 0.5,
+      "welfare": {
+        "S1": 129332.07696113203,
+        "S2": 527133.7176018729,
+        "S3": 608775.9311439671
+      },
+      "consumer_surplus": {
+        "S1": 7102.527538553186,
+        "S2": 371198.6070894771,
+        "S3": 352807.4629691916
+      },
+      "price": {
+        "S1": 0.953171916903681,
+        "S2": 0.35,
+        "S3": 0.3675611339171353
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "ratio": 4.707076121006868,
+      "transfer_ratio": 2.0941619222519336,
+      "volume_ratio": 7.04794357442783,
+      "gain_share": 0.27894594452595795,
+      "cs_gain_share": 0.7210540554740419
+    },
+    {
+      "eps": 1.0,
+      "welfare": {
+        "S1": 81536.98419826903,
+        "S2": 341534.4140571343,
+        "S3": 423293.4390375891
+      },
+      "consumer_surplus": {
+        "S1": 3551.263769276593,
+        "S2": 185599.30354473856,
+        "S3": 176403.7314845958
+      },
+      "price": {
+        "S1": 0.6515859584518405,
+        "S2": 0.35,
+        "S3": 0.35878056695856764
+      },
+      "volume_served": {
+        "S1": 146703.87580611315,
+        "S2": 1060567.4488270776,
+        "S3": 1033960.6388313535
+      },
+      "ratio": 5.191428689688713,
+      "transfer_ratio": 3.1658322343484846,
+      "volume_ratio": 7.04794357442783,
+      "gain_share": 0.4942232538180227,
+      "cs_gain_share": 0.5057767461819774
+    }
+  ],
+  "quota_rule": [
+    {
+      "rule": "ratio",
+      "p_spot": 0.06,
+      "laundering_pays": false,
+      "operator_margin_S2": -35198.161087132816,
+      "billed_gb": 879954.0271783203
+    },
+    {
+      "rule": "ratio",
+      "p_spot": 0.12,
+      "laundering_pays": false,
+      "operator_margin_S2": 17599.080543566404,
+      "billed_gb": 879954.0271783203
+    },
+    {
+      "rule": "ratio",
+      "p_spot": 0.16,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "billed_gb": 879954.0271783203
+    },
+    {
+      "rule": "ratio",
+      "p_spot": 0.22,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "billed_gb": 879954.0271783203
+    },
+    {
+      "rule": "ratio",
+      "p_spot": 0.3,
+      "laundering_pays": true,
+      "operator_margin_S2": 0.0,
+      "billed_gb": 879954.0271783203
+    },
+    {
+      "rule": "billed",
+      "p_spot": 0.06,
+      "laundering_pays": false,
+      "operator_margin_S2": -35501.89769876285,
+      "billed_gb": 887547.4424690711
+    },
+    {
+      "rule": "billed",
+      "p_spot": 0.12,
+      "laundering_pays": false,
+      "operator_margin_S2": 17750.94884938142,
+      "billed_gb": 887547.4424690711
+    },
+    {
+      "rule": "billed",
+      "p_spot": 0.16,
+      "laundering_pays": false,
+      "operator_margin_S2": 53252.84654814427,
+      "billed_gb": 887547.4424690711
+    },
+    {
+      "rule": "billed",
+      "p_spot": 0.22,
+      "laundering_pays": false,
+      "operator_margin_S2": 106505.69309628854,
+      "billed_gb": 887547.4424690711
+    },
+    {
+      "rule": "billed",
+      "p_spot": 0.3,
+      "laundering_pays": false,
+      "operator_margin_S2": 177509.48849381422,
+      "billed_gb": 887547.4424690711
+    }
+  ],
+  "wash": {
+    "per_gb_declare": 0.20999999999999996,
+    "per_gb_wash": 0.22999999999999995,
+    "wash_cap_gb": 648.0,
+    "crossover_gb": 709.7142857142857,
+    "trigger_floor_gb": 60.0,
+    "crossover_over_floor": 11.828571428571427,
+    "share_above_crossover": 0.5975,
+    "wash_self_defeating": true
+  },
+  "wash_run": {
+    "p_spot": 0.22,
+    "p_provider": 0.12,
+    "evasion_cost": 0.15,
+    "quota_rule": "ratio",
+    "eps": 1.0,
+    "wash_branch": true,
+    "laundering_pays": true,
+    "tripped_share_of_base": 0.03695,
+    "tripped_share_of_providers": 0.92375,
+    "gross_downlink_under_quota": 0.0,
+    "registration_rate": 0.445,
+    "wash_choosers": 0.0,
+    "disclosed_volume_share": 0.7746650816203998,
+    "provider_profit": {
+      "S1": 92656.10800960375,
+      "S2": 349987.2581129356,
+      "S3": 251695.6231189806
+    },
+    "operator_margin": {
+      "S1": 0.0,
+      "S2": 0.0,
+      "S3": 16431.691386191345
+    },
+    "unpriced_harm": {
+      "S1": 14670.387580611316,
+      "S2": 194052.1476005398,
+      "S3": 21237.606952178616
+    },
+    "welfare": {
+      "S1": 81536.98419826903,
+      "S2": 341534.4140571343,
+      "S3": 423293.4390375891
+    },
+    "welfare_transfer": {
+      "S1": 77985.72042899243,
+      "S2": 155935.11051239577,
+      "S3": 246889.70755299335
+    },
+    "consumer_surplus": {
+      "S1": 3551.263769276593,
+      "S2": 185599.30354473856,
+      "S3": 176403.7314845958
+    },
+    "price": {
+      "S1": 0.6515859584518405,
+      "S2": 0.35,
+      "S3": 0.35878056695856764
+    },
+    "volume_served": {
+      "S1": 146703.87580611315,
+      "S2": 1060567.4488270776,
+      "S3": 1033960.6388313535
+    },
+    "harm_per_gb_served": {
+      "S1": 0.1,
+      "S2": 0.18297011455061113,
+      "S3": 0.02054005360995432
+    },
+    "collateral_billing": 0.0
+  },
+  "sweep_wash": {
+    "rows": [
+      {
+        "p_spot": 0.04,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S2": 464727.97786209924,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": -52797.241630699216
+      },
+      {
+        "p_spot": 0.06,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S2": 482327.0584056656,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": -35198.161087132816
+      },
+      {
+        "p_spot": 0.08,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S2": 499926.13894923206,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": -17599.080543566404
+      },
+      {
+        "p_spot": 0.1,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S2": 517525.21949279844,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 6.1059076349062625e-12
+      },
+      {
+        "p_spot": 0.12,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.14,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.16,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.18,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.2,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.22,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.24,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.26,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.28,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      },
+      {
+        "p_spot": 0.3,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0
+      }
+    ],
+    "first_laundering_spot": 0.12,
+    "evasion_cost": 0.1,
+    "zero_margin_price": 0.1,
+    "headroom": 0.01999999999999999,
+    "identity_all": true
+  },
+  "wash_scan": {
+    "rows": [
+      {
+        "wash_cost": 0.02,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.30999999999999994,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.04,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.29,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.06,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.26999999999999996,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.08,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.24999999999999994,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.1,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.22999999999999995,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.12,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.20999999999999996,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.14,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.18999999999999995,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.16,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.16999999999999996,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.18,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.14999999999999997,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.2,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.12999999999999995,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.22,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.10999999999999996,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.24,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.08999999999999997,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.26,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.06999999999999995,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.28,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.04999999999999993,
+        "per_gb_compliant": 0.32999999999999996
+      },
+      {
+        "wash_cost": 0.3,
+        "wash_choosers": 0.0,
+        "registration": 0.445,
+        "volume_served": 1033960.6388313535,
+        "per_gb_wash": 0.02999999999999997,
+        "per_gb_compliant": 0.32999999999999996
+      }
+    ],
+    "any_chooser": false,
+    "max_cost_scanned": 0.3,
+    "min_cost_scanned": 0.02,
+    "ceiling_gb": 648.0,
+    "per_gb_compliant": 0.32999999999999996,
+    "per_gb_declare": 0.20999999999999996
+  },
+  "household": {
+    "households": 20000,
+    "rho_median": 0.09011823272075298,
+    "rho_p95": 0.13945621800352342,
+    "false_alarm_cells": 0.0,
+    "false_alarm_count": 0,
+    "rule_of_three_cells": 0.002112676056338028,
+    "rule_of_three_hosts": 0.1,
+    "hosts": 30,
+    "share_untouched": 1.0
+  },
+  "sweep": {
+    "rows": [
+      {
+        "p_spot": 0.04,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 464727.97786209924,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": -52797.241630699216,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.06,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 482327.0584056656,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": -35198.161087132816,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.08,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 499926.13894923206,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": -17599.080543566404,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.1,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 517525.21949279844,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 6.1059076349062625e-12,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.12,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 535124.3000363648,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 17599.080543566404,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.14,
+        "laundering_pays": false,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 552723.3805799312,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 35198.16108713282,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.16,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.18,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.2,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.22,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.24,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.26,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.28,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      },
+      {
+        "p_spot": 0.3,
+        "laundering_pays": true,
+        "identity_holds": true,
+        "welfare_S1": 81536.98419826903,
+        "welfare_S2": 341534.4140571343,
+        "welfare_S3": 423293.4390375891,
+        "margin_S2": 0.0,
+        "registration_rate": 0.445
+      }
+    ],
+    "first_laundering_spot": 0.16,
+    "last_paying_spot": 0.14,
+    "evasion_cost": 0.15,
+    "identity_all": true,
+    "welfare_S2_below": 341534.4140571343,
+    "welfare_S2_above": 464727.97786209924
+  },
+  "volume_trigger": {
+    "floor_gb": 60.0,
+    "ratio_trigger": {
+      "registration": 0.445,
+      "served": 1033960.6388313535,
+      "operator_margin": 16431.691386191345,
+      "unpriced_harm": 21237.606952178616,
+      "lines_asked": 739
+    },
+    "volume_trigger": {
+      "registration": 0.445,
+      "served": 1033960.6388313535,
+      "operator_margin": 16431.691386191345,
+      "unpriced_harm": 21237.606952178616,
+      "lines_asked": 798
+    },
+    "same_provider_outcome": true,
+    "lines_asked_extra": 59,
+    "household_false_alarm_ratio": 0.0,
+    "household_false_alarm_volume": 0.0006,
+    "households_asked_ratio": 0.0,
+    "households_asked_volume": 11.999999999999998,
+    "households_asked_extra": 11.999999999999998,
+    "washers": 59
+  }
+}

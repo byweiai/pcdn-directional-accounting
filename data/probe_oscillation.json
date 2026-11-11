@@ -1,0 +1,51 @@
+{
+ "alt_share_above_quota": 0.5,
+ "alt_max_run": 1,
+ "trips_three_window_rule": false,
+ "horizon_excess_mb": {
+  "client": {
+   "n": 10,
+   "median": 0.0,
+   "p90": 0.0,
+   "p99": 0.0,
+   "max": 0.0,
+   "share_over_10mb": 0.0,
+   "share_over_100mb": 0.0
+  },
+  "other": {
+   "n": 19,
+   "median": 0.001836,
+   "p90": 24.72249399999999,
+   "p99": 38.6092269,
+   "max": 38.980251,
+   "share_over_10mb": 0.21052631578947367,
+   "share_over_100mb": 0.0
+  },
+  "service": {
+   "n": 20,
+   "median": 284.687592,
+   "p90": 920.098378,
+   "p99": 977.86420786,
+   "max": 982.908329,
+   "share_over_10mb": 0.8,
+   "share_over_100mb": 0.5
+  }
+ },
+ "thresholds": [
+  {
+   "threshold_mb": 10.0,
+   "client_flag_rate": 0.0,
+   "service_flag_rate": 0.8
+  },
+  {
+   "threshold_mb": 50.0,
+   "client_flag_rate": 0.0,
+   "service_flag_rate": 0.5
+  },
+  {
+   "threshold_mb": 100.0,
+   "client_flag_rate": 0.0,
+   "service_flag_rate": 0.5
+  }
+ ]
+}

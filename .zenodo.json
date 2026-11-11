@@ -1,0 +1,31 @@
+{
+  "title": "Upload May Not Exceed Download: Directional Accounting for Peer-Assisted Delivery in Operator Networks",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-11-11",
+  "language": "eng",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Lv, Yue",
+      "affiliation": "China Mobile Communications Group Yunnan Co., Ltd.",
+      "orcid": "0009-0006-7743-1644"
+    }
+  ],
+  "description": "Analysis code and derived data for a manuscript on directional accounting of peer-assisted delivery in operator networks. The release reproduces every table, figure and quoted number in the paper from public corpora described in docs/PROVENANCE.md; the corpora themselves are not redistributed.",
+  "keywords": [
+    "PCDN",
+    "peer-assisted delivery",
+    "directional metering",
+    "traffic governance",
+    "internet economics"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "is supplement to",
+      "identifier": "https://github.com/byweiai/pcdn-directional-accounting",
+      "resource_type": "software"
+    }
+  ]
+}

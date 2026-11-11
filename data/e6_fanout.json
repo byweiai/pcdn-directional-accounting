@@ -1,0 +1,495 @@
+{
+  "n_flows": 1947835,
+  "n_cells": 7680,
+  "roles": {
+    "client": {
+      "n_cells": 2340,
+      "rho_median": 0.0927093498697287,
+      "fanout_median": 10.0,
+      "fanout_p90": 10.0
+    },
+    "service": {
+      "n_cells": 3440,
+      "rho_median": 0.8964179742628504,
+      "fanout_median": 10.0,
+      "fanout_p90": 10.0
+    },
+    "other": {
+      "n_cells": 1900,
+      "rho_median": 0.5,
+      "fanout_median": 1.0,
+      "fanout_p90": 10.0
+    }
+  },
+  "auc": {
+    "rho": 0.9679103309481216,
+    "fanout": 0.34011627906976744,
+    "both": 1.0
+  },
+  "dilution": [
+    {
+      "alpha": 1.0,
+      "rho": 0.8964179742628504,
+      "fanout": 10.0,
+      "extra_downlink_x": 0.0
+    },
+    {
+      "alpha": 0.7,
+      "rho": 0.6553053869449139,
+      "fanout": 10.0,
+      "extra_downlink_x": 0.42857142857142866
+    },
+    {
+      "alpha": 0.5,
+      "rho": 0.49456366206628954,
+      "fanout": 10.0,
+      "extra_downlink_x": 1.0
+    },
+    {
+      "alpha": 0.3,
+      "rho": 0.3338219371876652,
+      "fanout": 10.0,
+      "extra_downlink_x": 2.3333333333333335
+    },
+    {
+      "alpha": 0.2,
+      "rho": 0.25345107474835304,
+      "fanout": 10.0,
+      "extra_downlink_x": 4.0
+    },
+    {
+      "alpha": 0.1,
+      "rho": 0.17308021230904086,
+      "fanout": 10.0,
+      "extra_downlink_x": 9.0
+    },
+    {
+      "alpha": 0.05,
+      "rho": 0.1328947810893848,
+      "fanout": 10.0,
+      "extra_downlink_x": 18.999999999999996
+    }
+  ],
+  "endpoints": [
+    {
+      "ip": "10.40.170.2",
+      "role": "other",
+      "windows": 236,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.5,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.182.1",
+      "role": "other",
+      "windows": 236,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.3783783783783784,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.182.255",
+      "role": "other",
+      "windows": 35,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.0,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.182.3",
+      "role": "other",
+      "windows": 236,
+      "fan_med": 2.0,
+      "fan_p90": 2.0,
+      "rho_med": 0.5684410646387833,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.182.6",
+      "role": "other",
+      "windows": 41,
+      "fan_med": 1.0,
+      "fan_p90": 2.0,
+      "rho_med": 1.0,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.198.10",
+      "role": "other",
+      "windows": 12,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.0,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.85.1",
+      "role": "other",
+      "windows": 237,
+      "fan_med": 1.0,
+      "fan_p90": 2.0,
+      "rho_med": 0.3783783783783784,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.85.10",
+      "role": "other",
+      "windows": 86,
+      "fan_med": 2.0,
+      "fan_p90": 3.0,
+      "rho_med": 0.8842975206611571,
+      "is_attacker": false
+    },
+    {
+      "ip": "10.40.85.30",
+      "role": "other",
+      "windows": 237,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.6216216216216216,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.0",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9066481089491998,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.1",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9082987257075473,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.10",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5595219350869578,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.11",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.49887209493231505,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.12",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5185442177258346,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.13",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5364130225529995,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.14",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5032810949332649,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.15",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5332936323643354,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.16",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5624789704324287,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.17",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5529149235010367,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.18",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.560015199570485,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.19",
+      "role": "service",
+      "windows": 110,
+      "fan_med": 4.0,
+      "fan_p90": 4.0,
+      "rho_med": 0.5161285914192335,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.2",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9065618541240249,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.3",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9095439473031925,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.4",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9040894498837482,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.5",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9078745739780741,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.6",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9075031721112121,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.7",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.907443514971001,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.8",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9050986255814215,
+      "is_attacker": false
+    },
+    {
+      "ip": "149.171.126.9",
+      "role": "service",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.9083299274038539,
+      "is_attacker": false
+    },
+    {
+      "ip": "175.45.176.0",
+      "role": "other",
+      "windows": 110,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.5308379132617814,
+      "is_attacker": true
+    },
+    {
+      "ip": "175.45.176.1",
+      "role": "other",
+      "windows": 110,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.4844008814231452,
+      "is_attacker": true
+    },
+    {
+      "ip": "175.45.176.2",
+      "role": "other",
+      "windows": 110,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.4750490184301687,
+      "is_attacker": true
+    },
+    {
+      "ip": "175.45.176.3",
+      "role": "other",
+      "windows": 110,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.4546982844741032,
+      "is_attacker": true
+    },
+    {
+      "ip": "192.168.241.243",
+      "role": "other",
+      "windows": 12,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.5,
+      "is_attacker": false
+    },
+    {
+      "ip": "192.168.241.50",
+      "role": "other",
+      "windows": 86,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.0,
+      "is_attacker": false
+    },
+    {
+      "ip": "32.50.32.66",
+      "role": "other",
+      "windows": 5,
+      "fan_med": 1.0,
+      "fan_p90": 1.0,
+      "rho_med": 0.0,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.0",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09189343091205915,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.1",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09172730471107762,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.2",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09219945405277233,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.3",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09548696530175321,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.4",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09319754645005215,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.5",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09242780668576102,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.6",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09118975497048912,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.7",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09200804650298616,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.8",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09494741666492315,
+      "is_attacker": false
+    },
+    {
+      "ip": "59.166.0.9",
+      "role": "client",
+      "windows": 234,
+      "fan_med": 10.0,
+      "fan_p90": 10.0,
+      "rho_med": 0.09097562471299006,
+      "is_attacker": false
+    }
+  ],
+  "both_coordinates": {
+    "n": 11,
+    "service": 10,
+    "client": 0,
+    "attacker": 1
+  }
+}

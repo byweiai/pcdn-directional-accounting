@@ -1,0 +1,164 @@
+{
+ "10.1016/j.comnet.2021.108177": {
+  "doi": "10.1016/j.comnet.2021.108177",
+  "title": "Task offloading in Edge and Cloud Computing: A survey on mathematical, artificial intelligence and control theory solutions",
+  "year": 2021,
+  "venue": "Computer Networks",
+  "cites": 283,
+  "query": "mobile edge computing offloading incentive pricing operator",
+  "abstract": ""
+ },
+ "10.1109/tmc.2024.3350886": {
+  "doi": "10.1109/tmc.2024.3350886",
+  "title": "Joint Task Offloading and Resource Allocation in Aerial-Terrestrial UAV Networks With Edge and Fog Computing for Post-Disaster Rescue",
+  "year": 2024,
+  "venue": "IEEE Transactions on Mobile Computing",
+  "cites": 235,
+  "query": "mobile edge computing offloading incentive pricing operator",
+  "abstract": "Unmanned aerial vehicles (UAVs) are playing an increasingly important role in assisting fast-response post-disaster rescue due to their fast deployment, flexible mobility, and low cost. However, UAVs face the challenges of limited battery capacity and computing resources, which could shorten the expected flight endurance of UAVs and increase the rescue response delay during performing mission-critical tasks. To address these challenges, we first present a three-layer post-disaster rescue computing architecture by leveraging the aerial-terrestrial edge capabilities of mobile edge computing (MEC) and vehicle fog computing (VFC), which consists of a vehicle fog layer, a UAV client layer, and a UAV edge layer. Moreover, we formulate a joint task offloading and resource allocation optimization problem (JTRAOP) with the aim of maximizing the time-average system utility. Since the formulated JTRAOP is proved to be NP-hard, we propose an MEC-VFC-aided task offloading and resource allocation (MVTORA) approach, which consists of a game theoretic algorithm for task offloading decision, a convex optimization-based algorithm for MEC resource allocation, and an evolutionary computation-based hyb"
+ },
+ "10.1016/j.comnet.2021.108228": {
+  "doi": "10.1016/j.comnet.2021.108228",
+  "title": "Computation offloading and content caching and delivery in Vehicular Edge Network: A survey",
+  "year": 2021,
+  "venue": "Computer Networks",
+  "cites": 102,
+  "query": "mobile edge computing offloading incentive pricing operator",
+  "abstract": ""
+ },
+ "10.1016/j.comnet.2022.108820": {
+  "doi": "10.1016/j.comnet.2022.108820",
+  "title": "A survey: Distributed Machine Learning for 5G and beyond",
+  "year": 2022,
+  "venue": "Computer Networks",
+  "cites": 78,
+  "query": "application aware charging differentiated QoS 5G",
+  "abstract": "5G is the fifth generation of cellular networks. It enables billions of connected devices to gather and share information in real time; a key facilitator in Industrial Internet of Things (IoT) applications. It has more capabilities in terms of bandwidth, latency/delay, processing powers and flexibility to utilize either edge or cloud resources. Furthermore, 6G is expected to be equipped with the new capability to converge ubiquitous communication, computation, sensing and controlling for a variety of sectors, which heightens the complexity in a more heterogeneous environment This increased complexity, combined with energy efficiency and Service Level Agreement (SLA) requirements makes application of Machine Learning (ML) and distributed ML necessary. A decentralized approach stemming from distributed learning is a very attractive option compared with a centralized architecture for model learning and inference. Distributed ML exploits recent Artificial Intelligence (AI) technology advancements to allow collaborated ML, whilst safeguarding private data, minimizing both communication and computation overhead along with addressing ultra-low latency requirements. In this paper, we revie"
+ },
+ "10.1109/tmc.2021.3129094": {
+  "doi": "10.1109/tmc.2021.3129094",
+  "title": "Streaming From the Air : Enabling Drone-Sourced Video Streaming Applications on 5G Open-RAN Architectures",
+  "year": 2021,
+  "venue": "IEEE Transactions on Mobile Computing",
+  "cites": 43,
+  "query": "residential broadband uplink congestion ISP",
+  "abstract": "Enabling high data-rate uplink cellular connectivity for drones is a challenging problem, since a flying drone has a higher likelihood of having line-of-sight propagation to base stations that terrestrial UEs normally do not have line-of-sight to. This may result in uplink inter-cell interference and uplink performance degradation for the neighboring ground UEs when drones transmit at high data-rates (e.g., video streaming). We address this problem from a cellular operator’s standpoint to support drone-sourced video streaming of a point of interest. We propose a low-complexity, closed-loop control system for Open-RAN architectures that jointly optimizes the drone’s location in space and its transmission directionality to support video streaming and minimize its uplink interference impact on the network. We prototype and experimentally evaluate the proposed control system on a dedicated outdoor multi-cell RAN testbed, which is the first measurement campaign of its kind. Furthermore, we perform a large-scale simulation assessment of the proposed control system using the actual cell deployment topologies and cell load profiles of a major US cellular carrier. The proposed Open-RAN cont"
+ },
+ "10.1109/tmc.2023.3334914": {
+  "doi": "10.1109/tmc.2023.3334914",
+  "title": "Joint Resource Management and Pricing for Task Offloading in Serverless Edge Computing",
+  "year": 2023,
+  "venue": "IEEE Transactions on Mobile Computing",
+  "cites": 31,
+  "query": "mobile edge computing offloading incentive pricing operator",
+  "abstract": "We consider the problem of resource allocation, pricing and application caching for latency sensitive task of floading in serverless edge computing. We model the interaction between a profit-maximizing operator and cost-minimizing Wireless Devices (WDs) as a Stackelberg game where the operator is the leader and decides the price, resource allocation and set of applications to cache, while the WDs are the followers and decide whether to offload their tasks. We first show that the game has a Subgame Perfect Equilibrium (SPE), but computing it, is NP-hard. Importantly, we show that an SPE, which maximizes the operator's revenue, results in minimal energy consumption among the WDs. For computing an approximate SPE, we propose a linear time approximation algorithm with bounded approximation ratio for resource allocation and pricing, and we propose an efficient heuristic based on the utility density of individual applications for the joint optimization of caching, resource allocation and pricing. Our results show that the proposed algorithm outperforms state-of-the-art methods by up to an order of magnitude both in terms of revenue and total energy savings and has small computational ove"
+ },
+ "10.1109/tnsm.2021.3102890": {
+  "doi": "10.1109/tnsm.2021.3102890",
+  "title": "Automated Service Provisioning and Hierarchical SLA Management in 5G Systems",
+  "year": 2021,
+  "venue": "IEEE Transactions on Network and Service Management",
+  "cites": 28,
+  "query": "policy control charging 5G network slice quota",
+  "abstract": "Empowered bynetwork softwarization, 5G systems have become the key enabler to foster the digital transformation of the vertical industries by expanding the scope of traditional mobile networks and enriching the network service offerings. To make this a reality, we propose anautomationsolution for vertical services provisioning and hierarchical Service Level Agreement (SLA) management.Service scalingis one of the most essential operations to adapt the service deployments and resource allocations to ensure SLA fulfilment. Three different scaling levels are addressed in this work: application-, service- and resource-level. We have implemented our solution in a proof-of-concept of a virtualized mobile network platform, spanning over three geographically-distributed sites. To evaluate our solution, we leverage field tests, focusing onautomotive vertical servicescomprising a mission-critical application (collision-avoidance) and an entertainment one (video streaming). The results demonstrate the excellent performance of our solution, and its ability to automatically deploy vertical services and ensure their SLAs through different levels of service scaling."
+ },
+ "10.1109/tmc.2021.3097380": {
+  "doi": "10.1109/tmc.2021.3097380",
+  "title": "Auction-and-Learning Based Lagrange Coded Computing Model for Privacy-Preserving, Secure, and Resilient Mobile Edge Computing",
+  "year": 2021,
+  "venue": "IEEE Transactions on Mobile Computing",
+  "cites": 27,
+  "query": "mobile edge computing offloading incentive pricing operator",
+  "abstract": "We design a novel encoding model based on Lagrange coded computing (LCC) for private, secure, and resilient distributed mobile edge computing (MEC) systems, where multiple base stations (BSs) act as “masters” offloading their computations to edge nodes acting as “workers”. A two-fold objective of the scheme is: i) efficient allocation of computing tasks to the workers; ii) providing the workers with appropriate incentives to complete their tasks. As such, each master must decide on its offloading requests to the workers including the allocated tasks and service fees to be paid. This problem is complex due to the following reasons: i) masters can be privately-owned or managed by different operators, i.e., there is no communication and no coordination among them; ii) workers are heterogeneous non-dedicated nodes with limited and nondeterministic transmission and computing resources. As a result, the masters must compete for constrained resources of workers in a stochastic partially-observable environment. To address this problem, we define the interactions between masters and workers as a direct stochastic first-price-sealed-bid (FPSB) auction. To analyze the auction, we represent it"
+ },
+ "10.1109/tmc.2021.3091764": {
+  "doi": "10.1109/tmc.2021.3091764",
+  "title": "Joint Management of Compute and Radio Resources in Mobile Edge Computing: A Market Equilibrium Approach",
+  "year": 2021,
+  "venue": "IEEE Transactions on Mobile Computing",
+  "cites": 27,
+  "query": "mobile edge computing offloading incentive pricing operator",
+  "abstract": "Edge computing has been recently introduced to bring computational capabilities closer to end-users of modern network-based services, supporting existing and future delay-sensitive applications by effectively addressing the high propagation delay issue that affects cloud computing. However, the problem of efficiently and fairly managing the system resources presents particular challenges due to the limited capacity of both edge nodes and wireless access networks and the heterogeneity of resources and services’ requirements. To this end, we propose a techno-economic market where service providers act as buyers, securing both radio and computing resources to execute their associated end-users’ jobs while being constrained by a budget limit. We design an allocation mechanism that employs convex programming to find the unique market equilibrium point that maximizes fairness while ensuring that all buyers receive their preferred resource bundle. Additionally, we derive theoretical properties that confirm how the market equilibrium approach strikes a balance between fairness and efficiency. We also propose alternative allocation mechanisms and give a comparison with the market-based mech"
+ },
+ "10.1109/tnsm.2021.3085097": {
+  "doi": "10.1109/tnsm.2021.3085097",
+  "title": "SETA++: Real-Time Scalable Encrypted Traffic Analytics in Multi-Gbps Networks",
+  "year": 2021,
+  "venue": "IEEE Transactions on Network and Service Management",
+  "cites": 20,
+  "query": "in-network traffic classification encrypted traffic operator",
+  "abstract": "The security and privacy of the end-users are a few of the most important components of a communication network. Though end-to-end encryption (e.g., TLS/SSL) fulfils this requirement, it makes inspecting network traffic with legacy solutions such as Deep Packet Inspection difficult. Recent Machine Learning techniques have shown outstanding performance in encrypted traffic classification. Nevertheless, such approaches require efficient flow sampling at real enterprise-scale networks due to the sheer volume of transferred data. Through this paper, we propose a holistic architecture to extract flow information of encrypted data at multi Gbps line rate using sampling and sketching mechanisms, enabling network operators to estimate flow size distribution accurately and understand the behavior of VPN-obfuscated traffic. Using over 6000 video traffic traces, under three main evaluation scenarios based on trace duration and starting time point, we show that it is possible to achieve 99% accuracy for service provider classification and over 90% accuracy for content classification for a given service provider in the best case. We also deploy our solution at an operational enterprise-scale ne"
+ },
+ "10.1109/tnsm.2022.3150586": {
+  "doi": "10.1109/tnsm.2022.3150586",
+  "title": "Monitoring Platform Evolution Toward Serverless Computing for 5G and Beyond Systems",
+  "year": 2022,
+  "venue": "IEEE Transactions on Network and Service Management",
+  "cites": 12,
+  "query": "policy control charging 5G network slice quota",
+  "abstract": "Fifth generation (5G) and beyond systems require flexible and efficient monitoring platforms to guarantee optimal key performance indicators (KPIs) in various scenarios. Their applicability in Edge computing environments requires lightweight monitoring solutions. This work evaluates different candidate technologies to implement a monitoring platform for 5G and beyond systems in these environments. For monitoring data plane technologies, we evaluate different virtualization technologies, including bare metal servers, virtual machines, and orchestrated containers. We show that containers not only offer superior flexibility and deployment agility, but also allow obtaining better throughput and latency. In addition, we explore the suitability of the Function-as-a-Service (FaaS) serverless paradigm for deploying the functions used to manage the monitoring platform. This is motivated by the event oriented nature of those functions, designed to set up the monitoring infrastructure for newly created services. When the FaaS warm start mode is used, the platform gives users the perception of resources that are always available. When a cold start mode is used, containers running the applicati"
+ },
+ "10.1016/j.comnet.2024.110312": {
+  "doi": "10.1016/j.comnet.2024.110312",
+  "title": "A measurement-based approach to analyze the power consumption of the softwarized 5G core",
+  "year": 2024,
+  "venue": "Computer Networks",
+  "cites": 9,
+  "query": "5G user plane function UPF traffic measurement usage reporting",
+  "abstract": ""
+ },
+ "10.1109/tnsm.2022.3151468": {
+  "doi": "10.1109/tnsm.2022.3151468",
+  "title": "Multi-Site Resource Allocation in a QoS-Aware 5G Infrastructure",
+  "year": 2022,
+  "venue": "IEEE Transactions on Network and Service Management",
+  "cites": 8,
+  "query": "policy control charging 5G network slice quota",
+  "abstract": "Network softwarization has paved the way for 5G technologies, and a wide-range of (radically new) verticals. As the telecommunications infrastructure evolves into a sort of distributed datacenter, multiple tenants such as vertical industries and network service providers share its aggregate pool of resources (e.g., networking, computing, etc.) in a layered “as-a-Service” approach exposed as slice abstractions. The challenge remains in the coordination of various stakeholders’ assets in realizing end-to-end network slices and supporting the multi-site deployment and chaining of the micro-service components needed to implement cloud-native vertical applications (vApps). In this context, particular care must be taken to ensure that the required resources are identified, made available and managed in a way that satisfies the vApp requirements, allows for a fair share of resources and has a reasonable impact on the overall vApp deployment time. With these challenges in mind, this paper presents the Resource Selection Optimizer (RSO)– a software-service in the MATILDA Operations Support System (OSS), whose main goal is to select the most appropriate network and computing resources (accor"
+ },
+ "10.1109/tmc.2025.3642928": {
+  "doi": "10.1109/tmc.2025.3642928",
+  "title": "Distributed Offloading in Multi-Access Edge Computing Systems: A Mean-Field Perspective",
+  "year": 2025,
+  "venue": "IEEE Transactions on Mobile Computing",
+  "cites": 7,
+  "query": "mobile edge computing offloading incentive pricing operator",
+  "abstract": "With the widespread adoption of internet-of-things (IoT) devices capable of supporting numerous intelligent applications, the demand for computational power has surged dramatically. Multi-access edge computing (MEC) technology is a promising solution to assist the often power-constrained IoT devices by providing additional computing resources for time-sensitive tasks. In this paper, we consider the problem of optimal task offloading in MEC systems with due consideration of the timeliness and scalability issues under two scenarios of equitable and priority access to the edge server (ES). In the first scenario, we consider a MEC system consisting of$N$devices assisted by one ES, where the devices can split task execution between a local processor and the ES, withequitable accessto the ES. In the second scenario, we consider a MEC system consisting of one primary user,$N$secondary users and one ES. The primary user haspriority accessto the ES while the secondary users haveequitable accessto the ES amongst themselves. In both scenarios, due to the power consumption associated with utilizing the local resource and task offloading, the devices must optimize their actions. Additionally, s"
+ },
+ "10.1109/tnsm.2025.3648180": {
+  "doi": "10.1109/tnsm.2025.3648180",
+  "title": "Network-Assisted Congestion Feedback",
+  "year": 2025,
+  "venue": "IEEE Transactions on Network and Service Management",
+  "cites": 3,
+  "query": "peer-assisted content delivery measurement ISP",
+  "abstract": "We present Network Congestion Feedback (NCF), a novel congestion control framework that leverages programmable data planes for generating a rich congestion signal for use in the public Internet. NCF makes several contributions, including isolating ‘mice’ and ‘elephant’ flows using separate queues, detecting congestion in the elephants’ queue and generating a rich sub-RTT signal for the concerned senders, and designing a congestion-control algorithm (CCA) that matches a flow’s demands with supply (i.e., available bandwidth) for maximizing utilization and fairness. It extends two key ingredients from prior work on datacenter CCAs–a short control-loop delay and a precise congestion signal–that are crucial for designing an efficient, fair CCA, by adapting them for the more challenging Internet context. NCF isolates mice and elephant flows so that the former cannot unfairly degrade the throughput of the latter, and it guarantees that mice flows experience minimal round-trip times (RTTs) even when contending with elephant flows. NCF virtually eliminates slow-start spikes and achieves high fairness in both shallow and deep-buffer configurations, and even when the flows experience drastica"
+ },
+ "10.1016/j.comnet.2026.112524": {
+  "doi": "10.1016/j.comnet.2026.112524",
+  "title": "A comprehensive survey on encrypted network traffic classification",
+  "year": 2026,
+  "venue": "Computer Networks",
+  "cites": 1,
+  "query": "in-network traffic classification encrypted traffic operator",
+  "abstract": "The rapid development of computer networks and information technology has promoted the global digital wave, and a large number of services and applications are gradually adopting encryption as the primary method for protecting privacy. This poses a serious challenge to network management. Traffic classification is the main means to improve the quality of network service. Traditional deep packet inspection fails due to their inability to identify the payload in encrypted traffic. As a result, the academic community has turned to automated technologies such as machine learning to solve the problem of encrypted traffic classification. In this study, the main objective is to review the most important aspects pertaining to encrypted traffic classification, covering an overview of a background analysis as well as a core study on the most relevant techniques and methods within this area. We first provided the background of traffic encryption and described the classification problem of encrypted traffic and the data sources for network traffic classification. Then we reviewed the overall framework of the encrypted traffic classification task based on the research investigated and introduce"
+ },
+ "10.1016/j.comnet.2026.112710": {
+  "doi": "10.1016/j.comnet.2026.112710",
+  "title": "Slice-aware granularity selection for QoS violation prediction in 5G O-RAN",
+  "year": 2026,
+  "venue": "Computer Networks",
+  "cites": 0,
+  "query": "application aware charging differentiated QoS 5G",
+  "abstract": "Network slicing in 5G Open Radio Access Network (O-RAN) deployments creates a granularity problem for quality-of-service (QoS) violation prediction. A single global model treats all slices uniformly, a per-slice model may lack training data, and a per-group model requires a principled grouping criterion. This paper proposes a granularity selection rule that chooses among these three options from two measurable inputs, the viability of the 3GPP 5QI threshold for the target slice and the volume of per-slice training data. The rule is evaluated on two testbeds at opposite operating points, a small over-the-air testbed (four slices, four UEs) and a large hardware-in-the-loop emulator (three slices, 42 UEs), with every comparison scored against a common per-slice label under paired significance testing. The optimal granularity is regime-dependent. Where 5QI thresholds produce violation rates above 60%, the three granularities are statistically indistinguishable, and grouping is preferred for its parsimony. Where thresholds are viable, the choice depends on the position of a slice within its tolerance group. Two slices in the same group diverge, with the grouped model best for the ultra-"
+ },
+ "10.1016/j.comnet.2026.112244": {
+  "doi": "10.1016/j.comnet.2026.112244",
+  "title": "Internet usage and performance in GEO satellite networks: A large-scale study across Europe and Africa",
+  "year": 2026,
+  "venue": "Computer Networks",
+  "cites": 0,
+  "query": "residential broadband uplink congestion ISP",
+  "abstract": "Satellite Communication (SatCom) offers internet connectivity where traditional infrastructures are too expensive to deploy. When using satellites in a geostationary orbit, the distance from Earth forces a round-trip time of at least 550 ms. Coupled with the constrained capacity of the physical link, this challenges the traditional internet access quality we are used to. In this paper, we present a complete passive characterization of the traffic carried by an operational SatCom provider. With this unique vantage point, we observe the performance of the SatCom technology, as well as the usage habits of subscribers in different countries in Europe and Africa. We highlight the implications of such technology on Internet usage and functioning, and we pinpoint technical challenges due to the CDN and DNS resolution issues, while discussing possible optimizations that the ISP could implement to improve the service offered to SatCom subscribers. We complete the characterization of the adoption and performance of newer protocols with a focus on IPv6 and QUIC."
+ }
+}

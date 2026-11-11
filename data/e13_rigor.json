@@ -1,0 +1,83 @@
+{
+ "permutation": {
+  "statistic": 0.6293965544857666,
+  "p_value": 0.0010999450027498626,
+  "n_named": 30,
+  "n_service": 20,
+  "n_perm": 20000
+ },
+ "bootstrap": {
+  "n_boot": 4000,
+  "n_client_cells": 1420,
+  "n_service_cells": 2152,
+  "client_p95": 0.13924802577440584,
+  "client_p95_ci": [
+   0.1360567411114869,
+   0.14437423883198217
+  ],
+  "service_p05": 0.15559742078354058,
+  "service_p05_ci": [
+   0.1202581245155311,
+   0.18212774213208316
+  ],
+  "tpr_at_half": 0.8424721189591078,
+  "tpr_at_half_ci": [
+   0.8271375464684015,
+   0.8578066914498141
+  ],
+  "fp_at_half": 0.0,
+  "fp_at_half_ci": [
+   0.0,
+   0.0
+  ],
+  "host_level": {
+   "client": {
+    "hosts": 10,
+    "ci": [
+     0.1350955333767025,
+     0.1443913567858257
+    ]
+   },
+   "service": {
+    "hosts": 20,
+    "ci": [
+     0.0745175097868969,
+     0.3209004044496155
+    ]
+   },
+   "gap": {
+    "estimate": 0.016349395009134737,
+    "ci": [
+     -0.06492871803960369,
+     0.19351617063926296
+    ],
+    "share_positive": 0.61525,
+    "n_boot": 4000
+   },
+   "rule_of_three_hosts": 0.1,
+   "rule_of_three_cells": 0.002112676056338028
+  }
+ },
+ "split_half": [
+  {
+   "direction": 0,
+   "tau_calibrated": 0.23999999999999994,
+   "n_cal_client": 5,
+   "n_cal_service": 10,
+   "fp_held_out": 0.0,
+   "tpr_held_out": 0.924791086350975,
+   "n_eval_client_cells": 710,
+   "n_eval_service_cells": 1077
+  },
+  {
+   "direction": 1,
+   "tau_calibrated": 0.20999999999999996,
+   "n_cal_client": 5,
+   "n_cal_service": 10,
+   "fp_held_out": 0.004225352112676056,
+   "tpr_held_out": 0.933953488372093,
+   "n_eval_client_cells": 710,
+   "n_eval_service_cells": 1075
+  }
+ ]
+}

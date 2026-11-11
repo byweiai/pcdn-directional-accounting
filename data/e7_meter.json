@@ -1,0 +1,80 @@
+{
+  "params": {
+    "N_SUBS": 20000,
+    "N_RECORDS": 2000000,
+    "SEEDS": [
+      11,
+      12,
+      13
+    ],
+    "ZIPF_ALPHA": 1.1,
+    "PACKET_BYTES": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      1500
+    ],
+    "PACKET_P": [
+      0.28,
+      0.16,
+      0.13,
+      0.14,
+      0.17,
+      0.12
+    ]
+  },
+  "runs": [
+    {
+      "seed": 11,
+      "exact_mps": 3.1856442127879823,
+      "cms_mps": 0.8295940763098014,
+      "ss_mps": 0.0609554580304185,
+      "exact_counters": 39421,
+      "exact_rel_err": 0.0,
+      "cms_bits": 524288,
+      "cms_rel_err_top100": 0.009295253053833379,
+      "ss_bits": 196608,
+      "ss_rel_err_top100": 0.0
+    },
+    {
+      "seed": 12,
+      "exact_mps": 3.291592105267014,
+      "cms_mps": 0.9126670705640554,
+      "ss_mps": 0.07588549081291797,
+      "exact_counters": 39442,
+      "exact_rel_err": 0.0,
+      "cms_bits": 524288,
+      "cms_rel_err_top100": 0.008805975955448672,
+      "ss_bits": 196608,
+      "ss_rel_err_top100": 0.0
+    },
+    {
+      "seed": 13,
+      "exact_mps": 4.042345182810347,
+      "cms_mps": 0.8485527995580439,
+      "ss_mps": 0.043544267921387186,
+      "exact_counters": 39408,
+      "exact_rel_err": 0.0,
+      "cms_bits": 524288,
+      "cms_rel_err_top100": 0.009295239173341503,
+      "ss_bits": 196608,
+      "ss_rel_err_top100": 0.0
+    }
+  ],
+  "summary": {
+    "records_per_sec_exact": 3506527.1669551143,
+    "records_per_sec_exact_sd": 381341.44679579575,
+    "records_per_sec_cms": 863604.6488106336,
+    "records_per_sec_ss": 60128.40558824122,
+    "cms_rel_err_mean": 0.009132156060874518,
+    "ss_rel_err_mean": 0.0,
+    "cms_memory_kib": 64.0,
+    "ss_memory_kib": 24.0,
+    "exact_counters_max": 39442,
+    "active_share": 0.9995,
+    "mean_packet_bytes": 497.44000000000005,
+    "gbps_at_mean_packet": 13.954294991441218
+  }
+}

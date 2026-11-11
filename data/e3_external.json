@@ -1,0 +1,274 @@
+{
+  "cic": {
+    "kde_bandwidth": 0.025337068087480437,
+    "peaks": [
+      0.9686888454011742,
+      0.847358121330724,
+      0.3405088062622309,
+      0.11154598825831702
+    ],
+    "lobe_low": 0.3405088062622309,
+    "lobe_high": 0.9686888454011742,
+    "lobe_low_density": 0.16375871568259812,
+    "lobe_high_density": 3.6924528560526237,
+    "valley_rho": 0.15264187866927592,
+    "valley_density": 0.07030679148374111,
+    "valley_over_peak": 0.4293316004017262,
+    "lobe_separation": 0.6281800391389433,
+    "n_endpoints": 4992,
+    "n_flows": 626017,
+    "rho_median": 0.8485273972009446,
+    "rho_quantiles": {
+      "0.05": 0.46929639168481824,
+      "0.25": 0.7359394520959744,
+      "0.5": 0.8485273972009446,
+      "0.75": 0.9444752960999245,
+      "0.95": 0.9885242302913092
+    }
+  },
+  "time": {
+    "quota": 0.18503998275823152,
+    "calibration_hour": 0,
+    "hours": [
+      {
+        "hour": 0,
+        "n_endpoints": 40,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.0872882600133728
+      },
+      {
+        "hour": 1,
+        "n_endpoints": 39,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 0.95,
+        "client_median": 0.0895148539263289
+      },
+      {
+        "hour": 2,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09067231744602741
+      },
+      {
+        "hour": 3,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09390124084700927
+      },
+      {
+        "hour": 4,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.07103523000484907
+      },
+      {
+        "hour": 5,
+        "n_endpoints": 26,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.08299326324454759
+      },
+      {
+        "hour": 6,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.0909749205954965
+      },
+      {
+        "hour": 7,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09396325851236606
+      },
+      {
+        "hour": 8,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09194446785374019
+      },
+      {
+        "hour": 9,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09367411751039334
+      },
+      {
+        "hour": 10,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.08759172925139924
+      },
+      {
+        "hour": 11,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09330072113758417
+      },
+      {
+        "hour": 12,
+        "n_endpoints": 25,
+        "n_client": 10,
+        "n_service": 10,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09129625830273234
+      },
+      {
+        "hour": 636,
+        "n_endpoints": 44,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 0.95,
+        "client_median": 0.09903029247403514
+      },
+      {
+        "hour": 637,
+        "n_endpoints": 44,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.08676946799266921
+      },
+      {
+        "hour": 638,
+        "n_endpoints": 44,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 0.95,
+        "client_median": 0.09177725316757135
+      },
+      {
+        "hour": 639,
+        "n_endpoints": 44,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.0915451695434383
+      },
+      {
+        "hour": 640,
+        "n_endpoints": 43,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 0.95,
+        "client_median": 0.08978802640260738
+      },
+      {
+        "hour": 645,
+        "n_endpoints": 44,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 0.95,
+        "client_median": 0.09176323279555751
+      },
+      {
+        "hour": 646,
+        "n_endpoints": 44,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 1.0,
+        "client_median": 0.09190170451863584
+      },
+      {
+        "hour": 647,
+        "n_endpoints": 44,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 0.9,
+        "client_median": 0.09076312417278742
+      },
+      {
+        "hour": 648,
+        "n_endpoints": 43,
+        "n_client": 10,
+        "n_service": 20,
+        "false_positive": 0.0,
+        "capture": 0.85,
+        "client_median": 0.09473148741504565
+      }
+    ]
+  },
+  "attack": {
+    "n_windows_total": 7783,
+    "n_endpoints": 46,
+    "window_seconds": 300,
+    "by_role": {
+      "client": {
+        "n": 10,
+        "over_share_median": 0.0,
+        "over_share_p90": 0.0,
+        "longest_run_median": 0.0,
+        "longest_run_p90": 0.0,
+        "windows_median": 234.0
+      },
+      "other": {
+        "n": 16,
+        "over_share_median": 0.2224012274645186,
+        "over_share_p90": 1.0,
+        "longest_run_median": 2.0,
+        "longest_run_p90": 65.0,
+        "windows_median": 110.0
+      },
+      "service": {
+        "n": 20,
+        "over_share_median": 0.8,
+        "over_share_p90": 1.0,
+        "longest_run_median": 49.5,
+        "longest_run_p90": 91.0,
+        "windows_median": 172.0
+      }
+    },
+    "crossers": {
+      "n": 30,
+      "service_share": 0.6666666666666666,
+      "attacker_share": 0.13333333333333333,
+      "persistent_90pct": 14,
+      "persistent_90pct_service": 10,
+      "persistent_90pct_attacker": 0,
+      "attacker_over_share_median": 0.4727272727272727,
+      "service_over_share_median": 0.8
+    }
+  }
+}

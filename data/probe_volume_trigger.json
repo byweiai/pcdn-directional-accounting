@@ -1,0 +1,38 @@
+{
+ "ratio_trigger": {
+  "tripped": null,
+  "declare": null,
+  "served": 1033960.6388313535,
+  "operator": 16431.691386191345,
+  "harm": 21237.606952178616,
+  "registration": 0.445,
+  "disclosed": 0.7746650816203998
+ },
+ "volume_trigger": {
+  "tripped": null,
+  "declare": null,
+  "served": 1033960.6388313535,
+  "operator": 16431.691386191345,
+  "harm": 21237.606952178616,
+  "registration": 0.445,
+  "disclosed": 0.7746650816203998
+ },
+ "household_false_alarm_ratio": 0.0,
+ "household_false_alarm_volume": 0.0006,
+ "households_asked_ratio": 0.0,
+ "households_asked_volume": 11.999999999999998,
+ "washers": 59,
+ "washers_share_of_base": 0.00295,
+ "washers_served_ratio": 12353.609887827432,
+ "washers_served_volume": 12353.609887827432,
+ "revenue_gain": 0.0,
+ "harm_gain": 0.0,
+ "served_gain": 0.0,
+ "registration_gain": 0.0,
+ "params": {
+  "up_trigger_gb": 60.0,
+  "ceiling_gb": 648.0,
+  "p_provider": 0.12,
+  "floor_households": 20000
+ }
+}

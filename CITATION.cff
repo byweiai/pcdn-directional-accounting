@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the article and the release."
+title: "Upload May Not Exceed Download: Directional Accounting for Peer-Assisted Delivery in Operator Networks"
+type: software
+version: 1.0.0
+date-released: 2026-11-11
+license: MIT
+authors:
+  - family-names: Lv
+    given-names: Yue
+    orcid: "https://orcid.org/0009-0006-7743-1644"
+    affiliation: "China Mobile Communications Group Yunnan Co., Ltd."
+repository-code: "https://github.com/byweiai/pcdn-directional-accounting"

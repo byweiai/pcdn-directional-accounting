@@ -1,0 +1,129 @@
+{
+  "n_networks": 35849,
+  "ratio_counts": {
+    "Heavy Inbound": 2190,
+    "Mostly Inbound": 7703,
+    "Balanced": 8318,
+    "Mostly Outbound": 2202,
+    "Heavy Outbound": 946,
+    "Not Disclosed": 14490
+  },
+  "declared_share": 0.595804624954671,
+  "inbound_minus_outbound": 6745,
+  "type_counts": {
+    "Cable/DSL/ISP": 12571,
+    "Unknown": 10377,
+    "NSP": 4255,
+    "Content": 2714,
+    "Enterprise": 1903,
+    "Educational/Research": 1596,
+    "Network Services": 960,
+    "Route Server": 656,
+    "Non-Profit": 633,
+    "Government": 151,
+    "Route Collector": 33
+  },
+  "kinds": [
+    "Cable/DSL/ISP",
+    "Unknown",
+    "NSP",
+    "Content",
+    "Enterprise",
+    "Educational/Research",
+    "Network Services",
+    "Route Server",
+    "Non-Profit",
+    "Government"
+  ],
+  "ratio_labels": [
+    "Heavy Inbound",
+    "Mostly Inbound",
+    "Balanced",
+    "Mostly Outbound",
+    "Heavy Outbound",
+    "Not Disclosed"
+  ],
+  "table": [
+    [
+      1615,
+      5119,
+      3040,
+      396,
+      223,
+      2178
+    ],
+    [
+      118,
+      443,
+      602,
+      141,
+      63,
+      9010
+    ],
+    [
+      254,
+      1152,
+      1711,
+      345,
+      74,
+      719
+    ],
+    [
+      20,
+      118,
+      815,
+      907,
+      434,
+      420
+    ],
+    [
+      57,
+      254,
+      723,
+      183,
+      57,
+      629
+    ],
+    [
+      58,
+      352,
+      536,
+      81,
+      11,
+      558
+    ],
+    [
+      42,
+      140,
+      374,
+      65,
+      22,
+      317
+    ],
+    [
+      3,
+      3,
+      251,
+      5,
+      47,
+      347
+    ],
+    [
+      16,
+      84,
+      230,
+      71,
+      14,
+      218
+    ],
+    [
+      6,
+      37,
+      33,
+      7,
+      1,
+      67
+    ]
+  ],
+  "cramers_v": 0.35550335703181396
+}

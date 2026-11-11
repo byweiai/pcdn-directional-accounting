@@ -1,0 +1,86 @@
+[
+ {
+  "doi": "10.1016/j.comnet.2025.111862",
+  "title": "GeoFINDR: Practical approach to verify cloud instances geolocation in multicloud",
+  "year": 2025,
+  "date": "2025-11-19",
+  "cites": 0,
+  "type": "article",
+  "abstract": "In multicloud environments, where legal obligations, technical constraints and economic interests are at stake, it is of interest for stakeholders to be able to locate cloud data or the cloud instance where data are decrypted for processing. This paper proposes an original and practical delay-based approach, called GeoFINDR, to locate a cloud instance, e.g. a Virtual Machine (VM), over the Internet, based on RIPE Atlas landmarks. First, the assumed threat model and assumptions are more modern than in existing solutions, e.g. VM-scale localization in multicloud environments, a Cloud Service Provider (CSP) lying over the location of the VM. Second, the originality of the approach lies in four original ideas: (1) geolocation is performed from the VM, (2) a Greedy algorithm selects a first set LM A of distributed audit landmarks in the vicinity of the declared area, (3) a sectorization algorithm identifies a set LM S of other landmarks with distance-delay behavior similar to that of the VM to estimate the sector of the VM, and (4) the estimated location of the VM is calculated as the barycentre position of the LM S landmarks. An open source tool is published on GitHub and experiments show that the localization accuracy can be as high as 22.1 km , under adverse conditions, where the CSP lies about the location of the VM.",
+  "topic": "Cloud Computing and Resource Management",
+  "subfield": "Information Systems",
+  "authors": [
+   "Saïd Ider",
+   "Maryline Laurent"
+  ],
+  "volume": "275",
+  "issue": null,
+  "first_page": "111862",
+  "last_page": "111862"
+ },
+ {
+  "doi": "10.1016/j.comnet.2025.111984",
+  "title": "Exploring the future of telecommunications through a Techno-Economic lens",
+  "year": 2025,
+  "date": "2025-12-31",
+  "cites": 0,
+  "type": "article",
+  "abstract": "The telecommunications industry is undergoing a major transformation driven by new technologies alongside economic challenges that are reshaping the entire ecosystem. The increasing digitalization of industries and sectors demands more advanced network infrastructures tailored to diverse market verticals and supporting businesses in their digital transformation. However, the ecosystem’s future remains uncertain, influenced by operators’ strategic choices, business model innovation, national and industrial policies, regulations, and cross-industry investments. This paper extends previous work by not only outlining possible evolutionary scenarios of the telecommunications ecosystem but also analyzing the reciprocal relationship between technological advances and these scenarios. Specifically, it investigates how emerging market, ecosystem, and economic conditions influence the evolution and application of technology, while technology itself drives changes in these domains. Focusing on the European ecosystem, with implications for global contexts, this integrated perspective aims to support market players and policymakers in navigating transformation and making informed decisions. This work responds to the Grand Challenge “Creating a vision of the future evolution of telecommunications” within the RESTART research program, the most important public R&D initiative ever launched in the Italian telecommunications sector, funded by the European Union / Italian Ministry of University and Research, with an investment of 116 million euros. Consistently with the elements outlined above, it focuses on the trajectory of the telecommunications ecosystem, providing a comprehensive and forward looking assessment of the key business, technology and regulatory drivers at both national and European level.",
+  "topic": "ICT Impact and Policies",
+  "subfield": "Media Technology",
+  "authors": [
+   "Edoardo Meraviglia",
+   "Mattia Magnaghi",
+   "Antonio Capone",
+   "Nicola Bléfari-Melazzi",
+   "Marta Valsecchi",
+   "Luca Dozio"
+  ],
+  "volume": "276",
+  "issue": null,
+  "first_page": "111984",
+  "last_page": "111984"
+ },
+ {
+  "doi": "10.1016/j.comnet.2026.112735",
+  "title": "A secure model-lifecycle layer for federated and gossip learning in smart grid attack detection",
+  "year": 2026,
+  "date": "2026-09-09",
+  "cites": 0,
+  "type": "article",
+  "abstract": "Smart grids are large-scale cyber–physical systems in which distributed sensing, control, and monitoring generate sensitive operational data across multiple administrative domains. In this setting, centralized machine learning raises well-known concerns related to scalability, trust concentration, and single points of failure, while also making model management dependent on a single coordination point. Distributed learning paradigms such as Federated Learning (FL) and Gossip Learning (GL) offer a more suitable direction, since they preserve data locality and reduce the need for centralized data collection. However, they also introduce new problems related to artifact integrity, controlled access, provenance, revocation, and recovery in partially trusted environments. This paper introduces a secure lifecycle layer for model artifacts in smart-grid attack detection. Local updates, aggregated models, peer-exchanged models, and checkpoints are governed independently of the learning protocol. The layer combines authenticated encryption before off-chain IPFS storage, BBS + -signed manifests, HPKE key release through a Key Release Service (KRS), prospective revocation, ledger-backed audit, and checkpoint recovery. The same lifecycle semantics are instantiated in Blockchain-enabled Federated Learning (BFL), with auction-based coordination, and Blockchain-enabled Gossip Learning (BGL), which preserves direct peer exchange without a privileged aggregator. The evaluation covers prediction, robustness, lifecycle security, and cost. Federated configurations converge faster; gossip configurations remain operational under message loss. At N = 100 and R = 100 , collect-offers accounts for 81.9% of the measured BFL component sum, while median KRS latency rises from 11.5 to 551.6 ms as the authorized group grows. Single-run functional validations in BFL and BGL demonstrate externally triggered revocation, prospective key-release denial, authenticated checkpoint restoration, and resumed learning after training-time label flipping; inference remains local.",
+  "topic": "Smart Grid Security and Resilience",
+  "subfield": "Control and Systems Engineering",
+  "authors": [
+   "Marco De Santis",
+   "Christian Esposito",
+   "Jung Taek Seo"
+  ],
+  "volume": "289",
+  "issue": null,
+  "first_page": "112735",
+  "last_page": "112735"
+ },
+ {
+  "doi": "10.1016/j.comnet.2026.112886",
+  "title": "Balanced and adaptive scheduling of battery digital product passports over IoT-oriented DLTs",
+  "year": 2026,
+  "date": "2026-10-28",
+  "cites": 0,
+  "type": "article",
+  "abstract": "Digital Product Passports (DPPs) are emerging as key enablers of Digital Circular Economy (DCE) practices, with upcoming regulations further formalizing their integration, and batteries being the first official use case. Yet, their practical value is related not only to the availability of data through Internet of Things (IoT) technologies, but also to their representative status as the product ages. This work presents BALS-D3QN, a balanced and adaptive scheduler based on the D3QN algorithm, designed to decide when the battery data of a DPP should be updated and resubmitted to an external DLT network, through the Age of Incorrect Information (AoII) metric. Also, BALS-D3QN acts as the decision mechanism of our previous ABS-TD3 solution, by reutilizing the latest observed submission latency of the Shimmer DLT to enable latency-exploratory updates. The proposed framework is evaluated using simulated battery trajectories from products listed within the EPREL database of the European Commission (EC), and compared against key baselines, namely consecutive updates, random policies, and periodic decisions, reflecting different types of behaviors. The results suggest that BALS-D3QN successfully minimizes the congestion impact occurring from the aggressive policies, minimizes the AoII compared to sparse periodic decisions, and showcases better adaptive behavior compared to periodic cases of similar ranges.",
+  "topic": "Blockchain Technology Applications and Security",
+  "subfield": "Information Systems",
+  "authors": [
+   "Konstantinos Voulgaridis",
+   "Georgios Th. Papadopoulos",
+   "Sotirios K. Goudos",
+   "Panagiotis Sarigiannidis",
+   "Θωμάς Λάγκας"
+  ],
+  "volume": "291",
+  "issue": null,
+  "first_page": "112886",
+  "last_page": "112886"
+ }
+]

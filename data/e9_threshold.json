@@ -1,0 +1,53 @@
+{
+ "windows_s": 300,
+ "roles": {
+  "other": 1321,
+  "service": 2152,
+  "client": 1420
+ },
+ "scan": [
+  {
+   "tau": 0.1,
+   "false_alarm": 0.3676056338028169,
+   "capture": 0.9656133828996283,
+   "quota": 0.11111111111111112
+  },
+  {
+   "tau": 0.15,
+   "false_alarm": 0.026056338028169014,
+   "capture": 0.9521375464684015,
+   "quota": 0.17647058823529413
+  },
+  {
+   "tau": 0.2,
+   "false_alarm": 0.0028169014084507044,
+   "capture": 0.9358736059479554,
+   "quota": 0.25
+  },
+  {
+   "tau": 0.25,
+   "false_alarm": 0.0,
+   "capture": 0.9233271375464684,
+   "quota": 0.3333333333333333
+  },
+  {
+   "tau": 0.3,
+   "false_alarm": 0.0,
+   "capture": 0.9070631970260223,
+   "quota": 0.4285714285714286
+  },
+  {
+   "tau": 0.4,
+   "false_alarm": 0.0,
+   "capture": 0.8810408921933085,
+   "quota": 0.6666666666666667
+  },
+  {
+   "tau": 0.5,
+   "false_alarm": 0.0,
+   "capture": 0.8424721189591078,
+   "quota": 1.0
+  }
+ ],
+ "note": "false_alarm is the share of subscriber cells above tau, capture the share of service cells above tau"
+}

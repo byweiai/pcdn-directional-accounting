@@ -1,0 +1,46 @@
+{
+  "auc_rho": 0.9686146644807507,
+  "auc_detect_all": 1.0,
+  "auc_detect_mutable": 0.9999919497993104,
+  "auc_detect_fixed": 1.0,
+  "auc_detect_evaded_mild": 0.7751080558539205,
+  "auc_detect_evaded_severe": 0.9175981457402906,
+  "rho_max_drift": 0.0,
+  "byte_change_pct": 0.0,
+  "n_rows": 16624,
+  "n_test": 6650,
+  "features": {
+    "mutable": [
+      "dsport",
+      "sport",
+      "dur",
+      "Spkts",
+      "Dpkts",
+      "smeansz",
+      "dmeansz",
+      "Sjit",
+      "Djit"
+    ],
+    "fixed": [
+      "proto",
+      "state",
+      "sttl",
+      "dttl"
+    ],
+    "all": [
+      "proto",
+      "state",
+      "sttl",
+      "dttl",
+      "dsport",
+      "sport",
+      "dur",
+      "Spkts",
+      "Dpkts",
+      "smeansz",
+      "dmeansz",
+      "Sjit",
+      "Djit"
+    ]
+  }
+}
