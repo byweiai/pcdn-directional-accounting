@@ -5,8 +5,9 @@ Network Science and Engineering*. Everything here is what the paper's numbers ar
 computed from: the analysis scripts, the JSON they emit, and the figures built from
 those JSON files.
 
-Version 1.0.0 · DOI (Zenodo) minted from the GitHub release · Licence: code MIT,
-derived data CC BY 4.0.
+Version 1.0.0 · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24138621.svg)](https://doi.org/10.5281/zenodo.24138621)
+DOI: 10.5281/zenodo.24138621 (concept, always latest) · this version 10.5281/zenodo.24138622 ·
+Licence: code MIT, derived data CC BY 4.0.
 
 ## Layout
 
