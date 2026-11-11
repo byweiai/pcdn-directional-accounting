@@ -17,7 +17,7 @@ PAPER = os.path.join(os.path.dirname(HERE), 'paper')   # ...\tnse\paper
 PDF = os.path.join(PAPER, 'main.pdf')
 OUT = os.path.join(PAPER, 'submission', 'submit_sheet.html')
 
-TITLE = ('Upload May Not Exceed Download: Directional Accounting for '
+TITLE = ('The Quota, Not the Cut: Directional Accounting and Tariffs for '
          'Peer-Assisted Delivery in Operator Networks')
 
 AUTHORS = [
@@ -138,7 +138,7 @@ ul.hl code{color:var(--mid);font-size:12px;min-width:26px;text-align:right}
 </style></head><body>
 
 <h1>Submission quick-fill — IEEE Transactions on Network Science and Engineering</h1>
-<div class="sub">Upload May Not Exceed Download &middot; Yue Lv &middot;
+<div class="sub">The Quota, Not the Cut &middot; Yue Lv &middot;
 __STATS__</div>
 
 <div class="banner"><b>Submission portal</b>

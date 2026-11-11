@@ -6,7 +6,7 @@ the author's own statements about the work plus the mapping between a figure
 number in the manuscript and the vector file that produced it.
 """
 
-TITLE = ('Upload May Not Exceed Download: Directional Accounting for '
+TITLE = ('The Quota, Not the Cut: Directional Accounting and Tariffs for '
          'Peer-Assisted Delivery in Operator Networks')
 
 AUTHORS = [

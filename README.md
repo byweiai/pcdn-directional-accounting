@@ -1,4 +1,4 @@
-# Upload May Not Exceed Download: Directional Accounting for Peer-Assisted Delivery in Operator Networks
+# The Quota, Not the Cut: Directional Accounting and Tariffs for Peer-Assisted Delivery in Operator Networks
 
 Code and derived data for the manuscript submitted to *IEEE Transactions on
 Network Science and Engineering*. Everything here is what the paper's numbers are
@@ -44,6 +44,6 @@ figure and claim that carries a number.
 ## Cite
 
 ```
-Lv, Yue. (2026). Upload May Not Exceed Download: Directional Accounting for Peer-Assisted Delivery in Operator Networks (Version 1.0.0) [Computer software].
-Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Lv, Yue. (2026). The Quota, Not the Cut: Directional Accounting and Tariffs for Peer-Assisted Delivery in Operator Networks (Version 1.0.1) [Computer software].
+Zenodo. https://doi.org/10.5281/zenodo.24138622
 ```
