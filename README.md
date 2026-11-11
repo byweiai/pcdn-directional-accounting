@@ -45,5 +45,5 @@ figure and claim that carries a number.
 
 ```
 Lv, Yue. (2026). The Quota, Not the Cut: Directional Accounting and Tariffs for Peer-Assisted Delivery in Operator Networks (Version 1.0.1) [Computer software].
-Zenodo. https://doi.org/10.5281/zenodo.24138622
+Zenodo. https://doi.org/10.5281/zenodo.24138621  (concept; this version 10.5281/zenodo.24139401)
 ```
